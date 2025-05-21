@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "banner_principals",
+  "info": {
+    "singularName": "banner-principal",
+    "pluralName": "banner-principals",
+    "displayName": "banner-principal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "visible": {
+      "type": "boolean"
+    }
+  }
+}

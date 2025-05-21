@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_nosotros_1",
+  "info": {
+    "singularName": "pagina-nosotros",
+    "pluralName": "pagina-nosotros-1",
+    "displayName": "pagina-nosotros"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Mision": {
+      "type": "blocks"
+    },
+    "vision": {
+      "type": "blocks"
+    },
+    "historia": {
+      "type": "blocks"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
