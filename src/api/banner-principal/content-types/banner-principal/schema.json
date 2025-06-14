@@ -4,7 +4,8 @@
   "info": {
     "singularName": "banner-principal",
     "pluralName": "banner-principals",
-    "displayName": "banner-principal"
+    "displayName": "banner-principal",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,18 +17,14 @@
     "subtitulo": {
       "type": "string"
     },
-    "imagen": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
-    },
     "visible": {
       "type": "boolean"
+    },
+    "cta_text": {
+      "type": "string"
+    },
+    "cta_link": {
+      "type": "string"
     }
   }
 }

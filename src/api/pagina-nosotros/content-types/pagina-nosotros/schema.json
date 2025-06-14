@@ -4,7 +4,8 @@
   "info": {
     "singularName": "pagina-nosotros",
     "pluralName": "pagina-nosotros-1",
-    "displayName": "pagina-nosotros"
+    "displayName": "pagina-nosotros",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,14 +21,21 @@
       "type": "blocks"
     },
     "imagen": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "objetivo_general": {
+      "type": "blocks"
+    },
+    "objectivos_especificos": {
+      "type": "blocks"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "recurso",
     "pluralName": "recursos",
-    "displayName": "recurso"
+    "displayName": "recurso",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,21 +18,30 @@
       "type": "string"
     },
     "archivo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "categoria": {
       "type": "enumeration",
       "enum": [
-        "legal",
-        "salud"
+        "DOCUMENTO",
+        "VIDEO",
+        "WEB_LINK",
+        "IMAGEN_GALERIA",
+        "INFORME",
+        "BLOG_POST",
+        "OTRO"
       ]
+    },
+    "externalUrl": {
+      "type": "string"
     }
   }
 }
